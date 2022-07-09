@@ -1,0 +1,27 @@
+{
+  "name": "family-education",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "md5": "^2.3.0",
+    "pinia": "^2.0.14",
+    "vue": "^3.2.25",
+    "vue-router": "^4.1.1"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.6",
+    "@iconify-json/twemoji": "^1.1.5",
+    "@unocss/preset-attributify": "^0.43.2",
+    "@unocss/preset-icons": "^0.43.2",
+    "@unocss/preset-uno": "^0.43.2",
+    "@unocss/preset-web-fonts": "^0.43.2",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "unocss": "^0.43.2",
+    "vite": "^2.9.9"
+  }
+}
