@@ -1,25 +1,53 @@
 <script setup>
-
-
-
 </script>
 
 <template>
-    <router-view></router-view>
+  <router-view></router-view>
 </template>
 
 <style>
 @font-face {
-    font-family: "PingFang";
-    src: url(./assets/fonts/PingFang\ SC\ Light0.TTF);
+  font-family: "PingFang";
+  src: url(./assets/fonts/PingFang\ SC\ Light0.TTF);
 }
-
 
 * {
-    padding: 0;
-    margin: 0;
-    outline: none;
-    font-family: "PingFang" "Microsoft YaHei";
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: "PingFang" "Microsoft YaHei";
 }
 
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 6px;
+  background: rgba(#101F1C, 0.1);
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(144,147,153,.5);
+  background-clip: padding-box;
+  min-height: 28px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(144,147,153,.3);
+}
+
+body {
+  background-color: #f3f3f3;
+}
 </style>

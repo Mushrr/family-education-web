@@ -27,6 +27,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/ic@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.npmjs.org/@iconify-json/ic/-/ic-1.1.7.tgz#b4940da3f284d875de1f07841171312c7f441695"
+  integrity sha512-CYwkhja02SZoevezNHSqM7d1lpsRJxKt9fzvn3MpRxI8s2v3LNmhGiD/bTq3uFgqQMRPp+OnD+OOjHrMo7ah1g==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/twemoji@^1.1.5":
   version "1.1.5"
   resolved "https://registry.npmjs.org/@iconify-json/twemoji/-/twemoji-1.1.5.tgz#c657cafc8f17b3921d803758113a513990014061"
@@ -633,6 +640,11 @@ glob-parent@^5.1.2, glob-parent@~5.1.2:
   integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
   dependencies:
     is-glob "^4.0.1"
+
+gsap@^3.10.4:
+  version "3.10.4"
+  resolved "https://registry.npmjs.org/gsap/-/gsap-3.10.4.tgz#db89a6b8f6d5cb76e274eae822cbc1aa4d31e88f"
+  integrity sha512-6QatdkKxXCMfvCW4rM++0RqyLQAzFX5nwl3yHS0XPgkZBkiSEY3VZVbMltrdtsbER/xZonLtyHt684wRp4erlQ==
 
 gzip-size@^6.0.0:
   version "6.0.0"
